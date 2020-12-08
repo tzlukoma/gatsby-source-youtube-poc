@@ -13,6 +13,21 @@ Install all dependencies
     npm install
    
     
+Add your channel ID and youtube API key
+
+- Go to the gatsby-config.js file at the root of the project folder and replace YOUR_CHANNEL_ID and YOUR_YOUTUBE_API_KEY
+
+```js
+    {
+      resolve: `gatsby-source-youtube-v2`,
+      options: {
+        channelId: ['YOUR_CHANNEL_ID'],
+        apiKey: 'YOUR_YOUTUBE_API_KEY',
+        maxVideos: 50 // Defaults to 50
+      }
+    }
+```
+
 Start up the site
     
  
