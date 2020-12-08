@@ -47,6 +47,7 @@ module.exports = {
       options: {
         channelId: ['YOUR_CHANNEL_ID'],
         apiKey: 'YOUR_YOUTUBE_API_KEY',
+
         maxVideos: 50 // Defaults to 50
       }
     }
